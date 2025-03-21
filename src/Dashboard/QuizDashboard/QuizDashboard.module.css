@@ -1,0 +1,119 @@
+.dashboardContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.quizTitle {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.roundsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.roundCard {
+  background: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e0e0e0;
+}
+
+.completed {
+  background: #f8f9fa;
+}
+
+.roundHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.roundHeader h2 {
+  margin: 0;
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.badge {
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.qualified {
+  background: #d4edda;
+  color: #155724;
+}
+
+.notQualified {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.roundDetails {
+  padding: 1rem 0;
+}
+
+.score {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #0056b3;
+  margin: 1rem 0;
+}
+
+.rank {
+  font-size: 1.2rem;
+  color: #666;
+  margin: 0.5rem 0;
+}
+
+.qualifyingInfo {
+  color: #666;
+  font-style: italic;
+  margin-top: 1rem;
+}
+
+.startButton {
+  width: 100%;
+  padding: 1rem;
+  margin-top: 1rem;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.startButton:hover {
+  background: #0056b3;
+}
+
+.warning {
+  color: #856404;
+  background: #fff3cd;
+  padding: 0.75rem;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.loading {
+  text-align: center;
+  padding: 3rem;
+  font-size: 1.2rem;
+  color: #666;
+} 

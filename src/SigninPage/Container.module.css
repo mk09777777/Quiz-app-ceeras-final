@@ -1,0 +1,158 @@
+.container {
+  background-color: #f9fafb;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+}
+.signInBox {
+  background-color: #c5c5c55c;
+  border-radius: 18px;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 663px;
+  padding: 40px;
+  display: flex;
+}
+@media (width<=991px) {
+  .signInBox {
+    max-width: 90%;
+    padding: 30px;
+  }
+}
+@media (width<=640px) {
+  .signInBox {
+    padding: 20px;
+  }
+}
+.heading {
+  color: #4b5563;
+  text-align: center;
+  max-width: 581px;
+  margin-bottom: 40px;
+  font-family: REM, sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+@media (width<=991px) {
+  .heading {
+    font-size: 36px;
+  }
+}
+@media (width<=640px) {
+  .heading {
+    font-size: 28px;
+  }
+}
+/* Role Selector - Ensure Horizontal Layout */
+.roleSelector {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f1f1f1;
+  border-radius: 16px;
+  width: 486px;
+  height: 60px;
+  margin-bottom: 40px;
+  padding: 5px;
+  align-items: center;
+  position: relative;
+}
+
+/* Default Button Styles */
+.roleOptionadmin,
+.roleOptionstudent {
+  flex: 1; /* Make both buttons take equal width */
+  color: #4a4459;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 48px;
+  display: flex;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  border: none;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+/* Selected Button - Slightly Darker */
+.roleOptionadmin[aria-pressed="true"],
+.roleOptionstudent[aria-pressed="true"] {
+  background-color: #d9d9d9 !important; /* Slightly darker */
+  color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 640px) {
+  .roleSelector {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+
+.googleSignin {
+  color: #fff;
+  cursor: pointer;
+  background-color: #16bc88;
+  border: none;
+  border-radius: 8px;
+  width: 486px;
+  height: 61px;
+  margin-bottom: 36px;
+  font-family: Roboto, sans-serif;
+  font-size: 24px;
+  box-shadow: 0 4px 8px 3px #00000026, 0 1px 3px #0000004d;
+}
+@media (width<=991px) {
+  .googleSignin {
+    width: 100%;
+    max-width: 486px;
+  }
+}
+@media (width<=640px) {
+  .googleSignin {
+    height: 50px;
+    font-size: 20px;
+  }
+}
+.signinInfo {
+  color: #4b5563;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: REM, sans-serif;
+  font-size: 18px;
+  line-height: 36px;
+}
+@media (width<=640px) {
+  .signinInfo {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+.termsLink {
+  color: #16bc88;
+  cursor: pointer;
+  text-decoration: none;
+}
+.loginPrompt {
+  color: #4b5563;
+  text-align: center;
+  font-family: REM, sans-serif;
+  font-size: 18px;
+}
+@media (width<=640px) {
+  .loginPrompt {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+.loginLink {
+  color: #16bc88;
+  cursor: pointer;
+  text-decoration: underline;
+}

@@ -1,0 +1,279 @@
+.dashboard {
+  background-color: #f9fafb;
+  min-height: 100vh;
+  padding: 20px;
+}
+.header {
+  border-bottom: 1px solid #acacac;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  display: flex;
+}
+@media (width<=640px) {
+  .header {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+.navButtons {
+  gap: 16px;
+  display: flex;
+}
+@media (width<=640px) {
+  .navButtons {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+.navButtonactive,
+.navButton,
+.navButtonnewQuiz {
+  cursor: pointer;
+  border-radius: 16px;
+  padding: 10px 20px;
+  font-family: REM, sans-serif;
+  font-size: 16px;
+  box-shadow: 0 4px 8px 3px #00000026, 0 1px 3px #0000004d;
+}
+.welcome {
+  color: #000;
+  font-family: Righteous, sans-serif;
+  font-size: 30px;
+}
+.statsContainer {
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 40px;
+  padding: 0 20px;
+  display: flex;
+}
+@media (width<=991px) {
+  .statsContainer {
+    flex-direction: column;
+  }
+}
+.statCard {
+  background-color: #9595952e;
+  border-radius: 9px;
+  align-items: center;
+  gap: 20px;
+  padding: 25px;
+  width: 520px;
+  display: flex;
+}
+.statContent {
+  color: #4b5563;
+  font-family: REM, sans-serif;
+}
+.statLabel {
+  font-size: 20px;
+  font-weight: 400;
+}
+.statValue {
+  font-size: 34px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.quizzesSection {
+  padding: 0 20px;
+}
+.sectionHeader {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  display: flex;
+}
+@media (width<=640px) {
+  .sectionHeader {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+.sectionTitle {
+  color: #4b5563;
+  font-family: REM, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+.filters {
+  gap: 16px;
+  display: flex;
+}
+@media (width<=640px) {
+  .filters {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+.filterButton {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  border: none;
+  padding: 10px 20px;
+  font-family: REM, sans-serif;
+  box-shadow: 0 4px 8px 3px #00000026, 0 1px 3px #0000004d;
+}
+.quizCards {
+  gap: 30px;
+  margin-bottom: 40px;
+  display: flex;
+}
+@media (width<=991px) {
+  .quizCards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.quizCard {
+  width: 550px;
+  gap: 20px;
+}
+@media (width<=991px) {
+  .quizCard {
+    width: 100%;
+  }
+}
+.quizHeader {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  display: flex;
+}
+.duration {
+  color: #4b5563;
+  font-family: REM, sans-serif;
+  font-size: 14px;
+}
+.quizTitle {
+  color: #4b5563;
+  margin-bottom: 10px;
+  font-family: REM, sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+}
+.quizDescription {
+  color: #4b5563;
+  margin-bottom: 10px; 
+  font-family: REM, sans-serif;
+  font-size: 18px;
+  max-width: 400px; 
+  overflow-wrap: break-word; /* Ensures long words break instead of overflowing */
+  word-wrap: break-word;
+  line-height: 1.4; 
+}
+
+.startButton,
+.startButtonlocked {
+  color: #fff;
+  width: 100%; 
+  max-width: 425px; /* Maintain button size */
+  border: none;
+  text-align: center;
+  background-color: #16bc88;
+  border-radius: 8px;
+  padding: 16px;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  box-shadow: 0 4px 8px 3px #00000026, 0 1px 3px #0000004d;
+  display: block; /* Ensures proper alignment */
+}
+
+.recentActivity {
+  padding: 0 20px;
+}
+.activityTable {
+  width: 100%;
+  margin-top: 20px;
+}
+.tableHeader {
+  border-bottom: 1px solid #9d9898ab;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  padding: 10px 0;
+  display: grid;
+}
+@media (width<=640px) {
+  .tableHeader {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+}
+.headerCell {
+  color: #4b5563;
+  font-family: REM, sans-serif;
+  font-size: 18px;
+}
+@media (width<=640px) {
+  .headerCell {
+    padding: 5px 0;
+  }
+}
+.tableRow {
+  border-bottom: 1px solid #9d9898ab;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  padding: 15px 0;
+  display: grid;
+}
+@media (width<=640px) {
+  .tableRow {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+}
+.cell {
+  color: #4b5563;
+  font-family: REM, sans-serif;
+  font-size: 20px;
+}
+@media (width<=640px) {
+  .cell {
+    padding: 5px 0;
+  }
+}
+.cell2 {
+  color: #4b5563;
+  align-items: center;
+  font-family: REM, sans-serif;
+  font-size: 20px;
+  display: flex;
+}
+@media (width<=640px) {
+  .cell2 {
+    padding: 5px 0;
+  }
+}
+.cell3 {
+  color: #4b5563;
+  cursor: pointer;
+  font-family: REM, sans-serif;
+  font-size: 20px;
+}
+@media (width<=640px) {
+  .cell3 {
+    padding: 5px 0;
+  }
+}
+.cell4 {
+  color: #4b5563;
+  align-items: center;
+  font-family: REM, sans-serif;
+  font-size: 20px;
+  display: flex;
+}
+@media (width<=640px) {
+  .cell4 {
+    padding: 5px 0;
+  }
+}
+.cell5 {
+  color: #4b5563;
+  cursor: pointer;
+  font-family: REM, sans-serif;
+  font-size: 20px;
+}
+@media (width<=640px) {
+  .cell5 {
+    padding: 5px 0;
+  }
+}

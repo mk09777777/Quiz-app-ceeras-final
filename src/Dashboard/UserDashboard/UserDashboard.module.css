@@ -1,0 +1,148 @@
+.dashboard {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.quizContainer {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.quizHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.quizTitle {
+  font-size: 2rem;
+  color: #333;
+  margin: 0;
+}
+
+.completionBadge {
+  background: #28a745;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.roundsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
+}
+
+.roundCard {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 1.5rem;
+  border: 1px solid #dee2e6;
+  transition: all 0.3s ease;
+}
+
+.activeRound {
+  border: 2px solid #007bff;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.2);
+}
+
+.roundHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.liveIndicator {
+  background: #dc3545;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  animation: pulse 2s infinite;
+}
+
+.timingInfo {
+  margin-bottom: 1rem;
+  color: #666;
+}
+
+.resultInfo {
+  text-align: center;
+}
+
+.score {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #0056b3;
+  margin: 1rem 0;
+}
+
+.qualificationStatus {
+  padding: 0.75rem;
+  border-radius: 6px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.qualified {
+  background: #d4edda;
+  color: #155724;
+}
+
+.notQualified {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.roundActions {
+  margin-top: 1rem;
+}
+
+.startButton {
+  width: 100%;
+  padding: 1rem;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.startButton:hover:not(:disabled) {
+  background: #0056b3;
+}
+
+.startButton:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.roundStatus {
+  text-align: center;
+  color: #666;
+  font-style: italic;
+}
+
+.loading {
+  text-align: center;
+  padding: 3rem;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+@keyframes pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+} 

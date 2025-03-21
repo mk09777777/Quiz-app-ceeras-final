@@ -1,0 +1,50 @@
+.timingContainer {
+  padding: 1rem;
+  background-color: var(--background-secondary);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.settingGroup {
+  margin-bottom: 1.5rem;
+}
+
+.settingGroup:last-child {
+  margin-bottom: 0;
+}
+
+.settingGroup label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.timeInput,
+.numberInput {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  font-size: 1rem;
+  background-color: var(--input-background);
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.timeInput:focus,
+.numberInput:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.2);
+}
+
+.timeInput:invalid,
+.numberInput:invalid {
+  border-color: var(--error-color);
+}
+
+.helpText {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  margin-top: 0.25rem;
+}

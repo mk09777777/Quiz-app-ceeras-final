@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding-bottom: 60px; /* Height of footer plus some spacing */
+  min-height: 100vh;
+  position: relative;
+}

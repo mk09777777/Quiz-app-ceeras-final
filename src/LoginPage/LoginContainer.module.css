@@ -1,0 +1,131 @@
+.loginContainer {
+  background-color: #f9fafb;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.loginCard {
+  background-color: #c5c5c55c;
+  border-radius: 18px;
+  flex-direction: column;
+  align-items: center;
+  width: 663px;
+  padding: 60px;
+  display: flex;
+}
+@media (width<=991px) {
+  .loginCard {
+    width: 90%;
+    max-width: 663px;
+    padding: 40px 20px;
+  }
+}
+@media (width<=640px) {
+  .loginCard {
+    padding: 30px 15px;
+  }
+}
+.welcomeText {
+  color: #4b5563;
+  margin-bottom: 30px;
+  font-family: REM, sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 36px;
+}
+@media (width<=640px) {
+  .welcomeText {
+    font-size: 32px;
+  }
+}
+/* Toggle Container - Ensure Horizontal Layout */
+.toggleContainer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f1f1f1;
+  border-radius: 16px;
+  width: 486px;
+  height: 60px;
+  margin-bottom: 23px;
+  padding: 5px;
+  align-items: center;
+}
+
+/* Default Button Styles */
+.toggleButtonadmin,
+.toggleButtonstudent {
+  flex: 1; 
+  color: #4a4459;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border: none;
+  height: 48px;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  display: flex;
+  background-color: #f1f1f1; /* Default background */
+  border-radius: 8px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+/* Active Button - Slightly Darker */
+.toggleButtonadmin[aria-selected="true"],
+.toggleButtonstudent[aria-selected="true"] {
+  background-color: #d9d9d9 !important; /* Slightly darker */
+  color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 640px) {
+  .toggleContainer {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+
+
+.googleButton {
+  color: #fff;
+  background-color: #16bc88;
+  border-radius: 8px;
+  border: none;
+  width: 486px;
+  height: 61px;
+  margin-bottom: 36px;
+  font-family: Roboto, sans-serif;
+  font-size: 24px;
+  box-shadow: 0 4px 8px 3px #00000026, 0 1px 3px #0000004d;
+}
+@media (width<=991px) {
+  .googleButton {
+    width: 100%;
+    max-width: 486px;
+  }
+}
+@media (width<=640px) {
+  .googleButton {
+    height: 50px;
+    font-size: 20px;
+  }
+}
+.loginText {
+  color: #4b5563;
+  text-align: center;
+  font-family: REM, sans-serif;
+  font-size: 18px;
+  line-height: 36px;
+}
+@media (width<=640px) {
+  .loginText {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+.termsLink {
+  color: #16bc88;
+  cursor: pointer;
+}

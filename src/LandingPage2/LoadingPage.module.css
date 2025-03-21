@@ -1,0 +1,611 @@
+.loadingpage {
+  background-color: #fff;
+  flex-direction: column;
+  align-items: stretch;
+  padding-top: 0;
+  padding-bottom: 60px;
+  display: flex;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+.div {
+  text-align: center;
+  letter-spacing: 0.15px;
+  width: 100%;
+  padding: 20px 40px;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+@media (width <= 991px) {
+  .div {
+    max-width: 100%;
+    padding-right: 20px;
+  }
+}
+.div2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+@media (width <= 991px) {
+  .div2 {
+    max-width: 100%;
+  }
+}
+.div3 {
+  display: flex;
+  gap: 30px;
+}
+@media (width <= 991px) {
+  .div3 {
+    max-width: 100%;
+    white-space: initial;
+  }
+}
+.extendedFab {
+  background: none;
+  border: none;
+  position: relative;
+  padding: 8px 0;
+  font-size: 16px;
+  cursor: pointer;
+  color: #333;
+}
+
+.extendedFab:first-child {
+  color: #000;
+}
+
+.extendedFab:first-child::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #16bc88;
+}
+@media (width <= 991px) {
+  .extendedFab {
+    white-space: initial;
+  }
+}
+.stateLayer {
+  padding: 0;
+}
+@media (width <= 991px) {
+  .stateLayer {
+    white-space: initial;
+  }
+}
+.extendedFab2 {
+  color: #fff;
+  background-color: #16bc88;
+  border-radius: 25px;
+  margin-right: 50px;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.stateLayer2 {
+  padding: 0;
+}
+.div4 {
+  display: none;
+}
+@media (width <= 991px) {
+  .div4 {
+    margin-left: 10px;
+  }
+}
+.div5 {
+  border: 1px solid #eaeaea;
+  width: 100%;
+  min-height: 1px;
+  margin: 0;
+}
+@media (width <= 991px) {
+  .div5 {
+    max-width: 100%;
+  }
+}
+.aboutQuizApp {
+  color: #111827;
+  text-align: center;
+  margin-top: 40px;
+  font-family: sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+}
+@media (width <= 991px) {
+  .aboutQuizApp {
+    margin-top: 40px;
+  }
+}
+.p {
+  color: #4b5563;
+  text-align: center;
+  max-width: 700px;
+  margin: 20px auto 40px;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+@media (width <= 991px) {
+  .p {
+    max-width: 100%;
+    padding-right: 20px;
+  }
+}
+.div6 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 80px;
+  margin-bottom: 60px;
+}
+@media (width <= 991px) {
+  .div6 {
+    max-width: 100%;
+    margin-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+.appOverview {
+  color: #111827;
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+@media (width <= 991px) {
+  .appOverview {
+    margin-left: 10px;
+  }
+}
+.ourquizsystemprovidesastreamlinedwayforstudentstoparticipateinassessmentsStudentscanloginusingtheircredentialsenteradminGeneratedquizIDsandcompletequizzeswithinspecifiedtimelimitsTheplatformensuresfairtestingwhileprovidingimmediatefeedbackandcomprehensiveresults {
+  color: #4b5563;
+  font-family: sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+@media (width <= 991px) {
+  .ourquizsystemprovidesastreamlinedwayforstudentstoparticipateinassessmentsStudentscanloginusingtheircredentialsenteradminGeneratedquizIDsandcompletequizzeswithinspecifiedtimelimitsTheplatformensuresfairtestingwhileprovidingimmediatefeedbackandcomprehensiveresults {
+    max-width: 100%;
+  }
+}
+.div7 {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.div8 {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 14px;
+}
+.img {
+  width: 24px;
+  height: 24px;
+  color: #16bc88;
+}
+.img2,
+.img3 {
+  width: 24px;
+  height: 24px;
+  color: #16bc88;
+}
+.div9 {
+  flex: 1;
+}
+@media (width <= 991px) {
+  .div9 {
+    max-width: 100%;
+  }
+}
+.securestudentauthenticationsystemRealTimequizparticipationtrackingInstantresultsanddetailedanalytics {
+  color: #4b5563;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 2;
+  list-style-type: none;
+  padding-left: 0;
+}
+.howtoUse {
+  color: #111827;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 40px 0;
+}
+@media (width <= 991px) {
+  .howtoUse {
+    margin-top: 40px;
+  }
+}
+.div10 {
+  padding: 0 80px;
+}
+@media (width <= 991px) {
+  .div10 {
+    max-width: 100%;
+    padding-right: 20px;
+  }
+}
+.div11 {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+@media (width <= 991px) {
+  .div11 {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+  }
+}
+.column,
+.column2,
+.column3,
+.column4 {
+  flex: 1;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 30px 20px;
+  text-align: center;
+}
+@media (width <= 991px) {
+  .column {
+    width: 100%;
+  }
+}
+.div12,
+.div13,
+.div16,
+.div17 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (width <= 991px) {
+  .div12 {
+    margin-top: 40px;
+  }
+}
+.img4,
+.img5,
+.div
+.div15,
+.div18 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: #16bc88;
+  background-color: rgba(22, 188, 136, 0.1);
+}
+
+.img6,
+.img7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: #16bc88;
+  background-color: rgba(22, 188, 136, 0.1);
+}
+
+
+.appOverview2,
+.appOverview3,
+.appOverview4,
+.appOverview5 {
+  color: #111827;
+  margin-top: 12px;
+  font-family: Righteous, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 1;
+}
+.signinwithyourstudentcredentials,
+.inputthequizcodeprovidedbyyourinstructor,
+.completethequestionswithinthetimelimit,
+.getinstantfeedbackanddetailedanalysis {
+  color: #4b5563;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+}
+.column2 {
+  flex-direction: column;
+  align-items: stretch;
+  width: 25%;
+  margin-left: 20px;
+  line-height: normal;
+  display: flex;
+}
+@media (width <= 991px) {
+  .column2 {
+    width: 100%;
+  }
+}
+.div13 {
+  flex-grow: 1;
+  font-weight: 400;
+}
+@media (width <= 991px) {
+  .div13 {
+    margin-top: 40px;
+  }
+}
+.div14 {
+  color: #111827;
+  flex-direction: column;
+  padding-left: 25px;
+  padding-right: 55px;
+  font-family: Righteous, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 1;
+  display: flex;
+}
+@media (width <= 991px) {
+  .div14 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+.div15 {
+  background-color: #16bc8836;
+  border-radius: 50%;
+  flex-shrink: 0;
+  align-self: center;
+  width: 50px;
+  height: 50px;
+  display: flex;
+}
+.appOverview3 {
+  align-self: start;
+  margin-top: 11px;
+}
+.inputthequizcodeprovidedbyyourinstructor {
+  color: #4b5563;
+  text-align: center;
+  margin-top: 10px;
+  font-family: REM, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+}
+.column3 {
+  flex-direction: column;
+  align-items: stretch;
+  width: 25%;
+  margin-left: 20px;
+  line-height: normal;
+  display: flex;
+}
+@media (width <= 991px) {
+  .column3 {
+    width: 100%;
+  }
+}
+.div16 {
+  flex-direction: column;
+  align-items: center;
+  font-weight: 400;
+  display: flex;
+}
+@media (width <= 991px) {
+  .div16 {
+    margin-top: 40px;
+  }
+}
+.img5 {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 50%;
+  width: 50px;
+}
+.appOverview4 {
+  color: #111827;
+  margin-top: 12px;
+  font-family: Righteous, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 1;
+}
+.completethequestionswithinthetimelimit {
+  color: #4b5563;
+  text-align: center;
+  align-self: stretch;
+  margin-top: 7px;
+  font-family: REM, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+}
+.column4 {
+  flex-direction: column;
+  align-items: stretch;
+  width: 25%;
+  margin-left: 20px;
+  line-height: normal;
+  display: flex;
+}
+@media (width <= 991px) {
+  .column4 {
+    width: 100%;
+  }
+}
+.div17 {
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+  font-weight: 400;
+  display: flex;
+}
+@media (width <= 991px) {
+  .div17 {
+    margin-top: 40px;
+  }
+}
+.div18 {
+  background-color: #16bc8836;
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  margin-left: 11px;
+  display: flex;
+}
+.appOverview5 {
+  color: #111827;
+  margin-top: 13px;
+  font-family: Righteous, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 1;
+}
+.getinstantfeedbackanddetailedanalysis {
+  color: #4b5563;
+  text-align: center;
+  align-self: stretch;
+  margin-top: 7px;
+  font-family: REM, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+}
+.howtoUse2 {
+  color: #111827;
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 60px 0 30px 80px;
+}
+@media (width <= 991px) {
+  .howtoUse2 {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+.ourquizsystemprovidesastreamlinedwayforstudentstoparticipateinassessmentsStudentscanloginusingtheircredentialsenteradminGeneratedquizIDsandcompletequizzeswithinspecifiedtimelimitsTheplatformensuresfairtestingwhileprovidingimmediatefeedbackandcomprehensiveresults2,
+.ourquizsystemprovidesastreamlinedwayforstudentstoparticipateinassessmentsStudentscanloginusingtheircredentialsenteradminGeneratedquizIDsandcompletequizzeswithinspecifiedtimelimitsTheplatformensuresfairtestingwhileprovidingimmediatefeedbackandcomprehensiveresults3,
+.ourquizsystemprovidesastreamlinedwayforstudentstoparticipateinassessmentsStudentscanloginusingtheircredentialsenteradminGeneratedquizIDsandcompletequizzeswithinspecifiedtimelimitsTheplatformensuresfairtestingwhileprovidingimmediatefeedbackandcomprehensiveresults4 {
+  color: #4b5563;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  padding: 0 80px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 20px;
+}
+@media (width <= 991px) {
+  .ourquizsystemprovidesastreamlinedwayforstudentstoparticipateinassessmentsStudentscanloginusingtheircredentialsenteradminGeneratedquizIDsandcompletequizzeswithinspecifiedtimelimitsTheplatformensuresfairtestingwhileprovidingimmediatefeedbackandcomprehensiveresults2 {
+    max-width: 100%;
+  }
+}
+@media (width <= 991px) {
+  .ourquizsystemprovidesastreamlinedwayforstudentstoparticipateinassessmentsStudentscanloginusingtheircredentialsenteradminGeneratedquizIDsandcompletequizzeswithinspecifiedtimelimitsTheplatformensuresfairtestingwhileprovidingimmediatefeedbackandcomprehensiveresults3 {
+    max-width: 100%;
+  }
+}
+@media (width <= 991px) {
+  .ourquizsystemprovidesastreamlinedwayforstudentstoparticipateinassessmentsStudentscanloginusingtheircredentialsenteradminGeneratedquizIDsandcompletequizzeswithinspecifiedtimelimitsTheplatformensuresfairtestingwhileprovidingimmediatefeedbackandcomprehensiveresults4 {
+    max-width: 100%;
+  }
+}
+.howtoUse3 {
+  color: #111827;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 60px 0 20px;
+}
+.ourquizsystemprovidesastreamlinedwayforstudentstoparticipateinassessmentsStudentscanloginusingtheircredentialsenteradminGeneratedquizIDsandcompletequizzeswithinspecifiedtimelimitsTheplatformensuresfairtestingwhileprovidingimmediatefeedbackandcomprehensiveresults5 {
+  color: #4b5563;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+@media (width <= 991px) {
+  .ourquizsystemprovidesastreamlinedwayforstudentstoparticipateinassessmentsStudentscanloginusingtheircredentialsenteradminGeneratedquizIDsandcompletequizzeswithinspecifiedtimelimitsTheplatformensuresfairtestingwhileprovidingimmediatefeedbackandcomprehensiveresults5 {
+    max-width: 100%;
+  }
+}
+.div19 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 0 auto;
+}
+.extendedFab3 {
+  color: #fff;
+  background-color: #16bc88;
+  border-radius: 25px;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.stateLayer3 {
+  padding: 0;
+}
+.extendedFab4 {
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.stateLayer4 {
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .div,
+  .div6,
+  .div10,
+  .howtoUse2,
+  .ourquizsystemprovidesastreamlinedwayforstudentstoparticipateinassessmentsStudentscanloginusingtheircredentialsenteradminGeneratedquizIDsandcompletequizzeswithinspecifiedtimelimitsTheplatformensuresfairtestingwhileprovidingimmediatefeedbackandcomprehensiveresults2,
+  .ourquizsystemprovidesastreamlinedwayforstudentstoparticipateinassessmentsStudentscanloginusingtheircredentialsenteradminGeneratedquizIDsandcompletequizzeswithinspecifiedtimelimitsTheplatformensuresfairtestingwhileprovidingimmediatefeedbackandcomprehensiveresults3,
+  .ourquizsystemprovidesastreamlinedwayforstudentstoparticipateinassessmentsStudentscanloginusingtheircredentialsenteradminGeneratedquizIDsandcompletequizzeswithinspecifiedtimelimitsTheplatformensuresfairtestingwhileprovidingimmediatefeedbackandcomprehensiveresults4 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .div11 {
+    flex-direction: column;
+  }
+
+  .column,
+  .column2,
+  .column3,
+  .column4 {
+    margin-bottom: 20px;
+  }
+
+  .div19 {
+    flex-direction: column;
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .howtoUse2 {
+    margin-left: 20px;
+  }
+}
+
