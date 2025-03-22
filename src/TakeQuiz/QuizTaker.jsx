@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { auth } from '../firebaseconfig'; // Ensure you have Firebase configured
+import { auth } from './firebaseconfig'; // Ensure you have Firebase configured
 import { useParams, useLocation } from 'react-router-dom';
 import { doc, getDoc, updateDoc, arrayUnion } from 'firebase/firestore';
 import { db } from '../firebaseconfig';

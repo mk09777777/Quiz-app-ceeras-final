@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Routes, Route, useNavigate } from "react-router-dom";
-import { auth } from "../firebaseconfig";// Ensure correct import path
+ // Ensure correct import path
 import Header from "./Header";
 import HeroSection from "./HeroSection";
 import FeaturesSection from "./FeaturesSection";
@@ -23,6 +23,7 @@ import UserDashboard from './Dashboard/UserDashboard/UserDashboard';
 import QuizDashboard from './Dashboard/QuizDashboard/QuizDashboard';
 import RoundCompletionDashboard from './Dashboard/RoundCompletionDashboard/RoundCompletionDashboard';
 import Footer from './components/Footer';
+import { auth } from "./firebaseconfig";
 
 const App = () => {
   const [user, setUser] = useState(null);
